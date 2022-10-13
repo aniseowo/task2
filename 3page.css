@@ -2,15 +2,13 @@ body{
     background-color: bisque;
     font-family: 'Lora', serif;
 }
-img {
-    width: 30%;
-}
-p {
-    text-align: right;
-}
 h1 {
     text-align: center;
 }
 .toMain {
     color: black;
+}
+li {
+    margin: 20px;
+    
 }

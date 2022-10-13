@@ -1,6 +1,7 @@
 h1 {
     color: white;
     text-align: center;
+    font-family: 'Lora', serif;
 }
 .imgOfcat {
     width: 100%;
@@ -14,8 +15,33 @@ body {
     text-align: right;
     color: white;
     background-color: black;
+    font-family: 'Lora', serif;
 
 }
 .kinds {
     color: white;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-family: 'Lora', serif;
+}
+a {
+    color: white;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.socialNetworking {
+    background-color: lightslategray;
+    text-align: center;
+    
 }
