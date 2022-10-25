@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: #edede9;
     font-family: 'Lora', serif;
 }
 img {
@@ -11,6 +11,16 @@ p {
 h1 {
     text-align: center;
 }
-.toMain {
-    color: black;
+
+button {
+	border: 3px solid #d5bdaf;
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+    color: white;
+}
+
+button:hover {
+	border: 3px dashed #d5bdaf;
+	color:#d5bdaf;
+	
 }

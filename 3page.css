@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: #edede9;
     font-family: 'Lora', serif;
 }
 h1 {
@@ -11,4 +11,16 @@ h1 {
 li {
     margin: 20px;
     
+}
+button {
+	border: 3px solid #d5bdaf;
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+    color: white;
+}
+
+button:hover {
+	border: 3px dashed #d5bdaf;
+	color:#d5bdaf;
+	
 }

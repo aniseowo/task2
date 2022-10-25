@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 h1 {
     color: white;
     text-align: center;
@@ -9,14 +12,16 @@ h1 {
 }
 body {
     background-image: url(pictures/NationalGeographic_2572187_2x1.jpg);
-    background-size: 100%
+    background-size: 100%;
+    min-height: 100%;
+    margin: 0;
 }
 .about {
     text-align: right;
     color: white;
     background-color: black;
     font-family: 'Lora', serif;
-
+    margin-bottom: 380px;
 }
 .kinds {
     color: white;
@@ -30,9 +35,19 @@ body {
     color: white;
     font-family: 'Lora', serif;
 }
-a {
-    color: white;
+button {
+	border: 3px solid #d5bdaf;
+    background-color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
 }
+
+button:hover {
+	border: 3px dashed #d5bdaf;
+	color:#d5bdaf;
+	background: black;
+}
+
 .icon {
     width: 50px;
     height: 50px;
@@ -42,6 +57,6 @@ a {
 }
 .socialNetworking {
     background-color: lightslategray;
-    text-align: center;
-    
+    text-align: center; 
 }
+
